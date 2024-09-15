@@ -37,7 +37,7 @@ input {
 }
 
 input:focus {
-  border-color: #0056b3;
+  border-color: #9B8C51;
   outline: none;
 }
 
@@ -48,7 +48,7 @@ input:focus {
 button {
   padding: 10px;
   font-size: 18px;
-  background-color: #0056b3;
+  background-color: #9B8C51;
   color: white;
   border: none;
   border-radius: 5px;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #9B8C51;
 }
 
 p {
@@ -69,6 +69,6 @@ p[style='color: red'] {
   color: #f44336;
 }
 
-p[style='color: blue'] {
-  color:#0056b3;
+p[style='color: #9B8C51'] {
+  color:rgb(4, 4, 35);
 }

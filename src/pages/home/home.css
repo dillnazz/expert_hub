@@ -5,19 +5,24 @@
 .sectionOne {
   display: flex;
   width: 500px;
-  margin-left: 40px;
+  margin-left: 10px;
+}
+.sectionOneText {
+  display: flex;
+  justify-content: space-between;
 }
 .sectionOneText h1{
-  color: #0056b3;
+  /* color: rgb(4, 4, 35); */
   width: 700px;
-  margin-left: 80px;
+  margin-left: 5px;
   font-size: 80px;
   font-family:'Times New Roman', Times, serif;
+  /* align-items: center; */
 }
 .sectionOneText p {
-  width: 700px;
-  margin-left: 80px;
-  text-align: start;
+  /* width: 700px; */
+  margin-left: 5px;
+  /* text-align: center; */
 }
 
 ul {
@@ -31,9 +36,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
-  background-color: #f0f8ff;
-  /* Light blue background */
+  min-height: 600px;
+  width: 100%;
   font-family: 'Arial', sans-serif;
 
   div {
@@ -45,7 +49,7 @@ ul {
 /* Headings */
 h2 {
   font-size: 24px;
-  color: #007bff;
+  color: rgb(4, 4, 35);
   /* Blue heading text */
   margin-bottom: 20px;
 }
@@ -54,10 +58,10 @@ h2 {
 input[type="text"] {
   padding: 12px;
   font-size: 16px;
-  border: 2px solid #007bff;
+  border: 2px solid #9B8C51;
   /* Blue border */
   border-radius: 8px;
-  width: 320px;
+  /* width: 320px; */
   margin-bottom: 20px;
   color: #000;
   /* Black text */
@@ -67,7 +71,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  border-color: #0056b3;
+  border-color: #9B8C51;
   /* Darker blue on focus */
 }
 
@@ -75,7 +79,7 @@ input[type="text"]:focus {
 button {
   padding: 12px 24px;
   font-size: 16px;
-  background-color: #007bff;
+  /* background-color: rgb(4, 4, 35); */
   /* Blue background */
   color: #fff;
   /* White text */
@@ -88,7 +92,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  /* background-color: rgb(4, 4, 35); */
   /* Darker blue on hover */
 }
 
@@ -113,13 +117,12 @@ button:last-of-type {
 }
 
 button:last-of-type:hover {
-  background-color: #333;
-  /* Darker black on hover */
+  background-color: #FFDEAD;
 }
 .specialist-card {
   padding: 15px;
   display: flex;
-  border: 2px solid #0056b3;
+  border: 2px solid rgb(4, 4, 35);
 }
 /* .cards {
   display: flex;
