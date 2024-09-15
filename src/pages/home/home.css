@@ -1,0 +1,153 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionOne {
+  display: flex;
+  width: 500px;
+  margin-left: 40px;
+}
+.sectionOneText h1{
+  color: #0056b3;
+  width: 700px;
+  margin-left: 80px;
+  font-size: 80px;
+  font-family:'Times New Roman', Times, serif;
+}
+.sectionOneText p {
+  width: 700px;
+  margin-left: 80px;
+  text-align: start;
+}
+
+ul {
+  display: flex;
+}
+/* li {
+  text-transform: none;
+} */
+.step-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  background-color: #f0f8ff;
+  /* Light blue background */
+  font-family: 'Arial', sans-serif;
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Headings */
+h2 {
+  font-size: 24px;
+  color: #007bff;
+  /* Blue heading text */
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  /* Blue border */
+  border-radius: 8px;
+  width: 320px;
+  margin-bottom: 20px;
+  color: #000;
+  /* Black text */
+  background-color: #fff;
+  /* White background */
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0056b3;
+  /* Darker blue on focus */
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  /* Blue background */
+  color: #fff;
+  /* White text */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 5px;
+  /* Add margin between buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Summary section */
+p {
+  font-size: 18px;
+  color: #000;
+  /* Black text */
+  margin-bottom: 10px;
+}
+
+/* Button for final confirmation */
+button:last-of-type {
+  /* background-color: #000; */
+  /* Black background for the final button */
+  color: #fff;
+  /* White text */
+}
+
+button:last-of-type:hover {
+  background-color: #333;
+  /* Darker black on hover */
+}
+.specialist-card {
+  padding: 15px;
+  display: flex;
+  border: 2px solid #0056b3;
+}
+/* .cards {
+  display: flex;
+} */
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .step-form-container {
+    padding: 20px;
+  }
+
+  input[type="text"],
+  button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+.otions {
+  display: flex;
+  flex-direction: column;
+}
